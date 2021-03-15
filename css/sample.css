@@ -67,7 +67,7 @@ li {
 /* ここから */
 .function {
   height: 300px;
-  background-color: rgb(105, 169, 217);
+  background-color:rgb(192, 193, 196);
   padding-top:/ 2%;
 }
 .function2{
@@ -84,7 +84,7 @@ clear: both;
 }
 /* ここまでがfunction部分の実装 */
 .footer{
-  background-color: rgb(32, 3, 91);
+  background-color: rgb(24, 5, 56);
   height: 100px;
   width: 100%;
   bottom: 0;
@@ -92,7 +92,7 @@ clear: both;
 }
 .p_footer{
   font-size: 2rem;
-  color:rgb(255, 255, 255);
+  color:white;
 }
 .container{
   text-align: center;
