@@ -10,19 +10,19 @@ body {
 
 .header {
   background-color: rgb(43, 10, 79);
-  height: 50px;
-  font-size: 1.5rem;
+  height: 100px;
+  font-size: 2.5rem;
 }
 .left {
   float: left;
-  padding: 15px;
+  padding: 25px;
 }
 
 .right_menu{
   float: right;
 }
 .right{
-  padding: 15px;
+  padding: 25px;
   float: left;
 }
 .clearfix:after {
@@ -49,11 +49,12 @@ li {
 .image_area{
   margin: -5px;
   width: 100%;
+  height: 800px;
 }
 .image_area2{
   position: absolute;
-    top: 300px;
-    left: 230px;
+    top: 400px;
+    left: 670px;
 }
 /* main画像（白い「Achieve」の文字の画像）部分の実装 */
  .pict2{
@@ -66,12 +67,12 @@ li {
 
 /* ここから */
 .function {
-  height: 300px;
+  height: 500px;
   background-color:rgb(192, 193, 196);
-  padding-top:/ 2%;
+  padding-top: 2%;
 }
 .function2{
-  font-size: 2rem;
+  font-size: 3rem;
 }
 .clearfix:after{
 content: "";
@@ -80,7 +81,9 @@ clear: both;
 }
 .function-image {
   float: left;
-  width: 230px;
+  bottom: 0;
+  width: 450px;
+  padding-top: 5%;
 }
 /* ここまでがfunction部分の実装 */
 .footer{
@@ -96,7 +99,7 @@ clear: both;
 }
 .container{
   text-align: center;
-  width: 980px;
+  width: 100%;
   margin: 0 auto;
 min-height: 100%;
 position: relative;
