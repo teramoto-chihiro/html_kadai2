@@ -46,15 +46,23 @@ li {
 }
 
 /* ここまでがheader部分の実装 */
+.main-header{
+  position: relative;
+  width: 100%;
+  height: auto;
+}
 .image_area{
   margin: -5px;
   width: 100%;
-  height: 800px;
+  height: 400px;
 }
 .image_area2{
   position: absolute;
-    top: 400px;
-    left: 670px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+transform: translate3d(-50%, -50%, 0);
+
 }
 /* main画像（白い「Achieve」の文字の画像）部分の実装 */
  .pict2{
@@ -79,11 +87,17 @@ content: "";
 display: block;
 clear: both;
 }
+.function-images{
+  /* background-color: red; */
+  width: 800px;
+  margin: 0 auto;
+}
 .function-image {
   float: left;
   bottom: 0;
-  width: 450px;
+  width: 200px;
   padding-top: 5%;
+  /* position: absolute; */
 }
 /* ここまでがfunction部分の実装 */
 .footer{
